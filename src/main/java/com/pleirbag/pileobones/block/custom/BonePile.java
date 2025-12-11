@@ -14,7 +14,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class BonePile extends BaseEntityBlock {
 
-	public static final VoxelShape SHAPE = HorizontalDirectionalBlock.box(4, 0,2, 13, 4, 13);
+	public static final VoxelShape SHAPE = HorizontalDirectionalBlock.box(3, 0,2, 13, 4, 13);
 	public BonePile(Properties pProperties) {
 		super(pProperties);
 	}
